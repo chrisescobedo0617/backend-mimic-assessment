@@ -55,7 +55,7 @@ def create_mimic_dict(filename):
                 else:
                     mimic_dict[prev_word].append(word)
                 prev_word = word
-    #print(mimic_dict)
+    print(mimic_dict)
     return mimic_dict
 
 
